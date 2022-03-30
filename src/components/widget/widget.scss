@@ -1,0 +1,10 @@
+.widget{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  flex: 1;
+  -webkit-box-shadow: 3px 4px 13px -1px #000000; 
+  box-shadow: 3px 4px 13px -1px #000000;
+  border-radius: 10px;
+  height: 100px;
+}
