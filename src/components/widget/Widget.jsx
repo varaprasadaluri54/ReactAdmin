@@ -1,6 +1,6 @@
 import "./widget.scss";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
-
+import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 export default function Widget() {
   return (
     <div className="widget">
@@ -10,10 +10,11 @@ export default function Widget() {
         <span className="link ">See all user</span>
       </div>
       <div className="right">
-        <div className="percentage">
+        <div className="percentage positive">
           <KeyboardArrowUpIcon />
           20%
         </div>
+        <PersonOutlinedIcon className="icon" />
       </div>
     </div>
   );
